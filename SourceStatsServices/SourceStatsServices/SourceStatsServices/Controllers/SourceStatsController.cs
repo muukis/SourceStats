@@ -8,7 +8,7 @@ using SourceStatsServices.Models;
 namespace SourceStatsServices.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class SourceStatsController : Controller
     {
         [HttpPost]
         public void Post([FromBody]SaveCommand saveCommand)
