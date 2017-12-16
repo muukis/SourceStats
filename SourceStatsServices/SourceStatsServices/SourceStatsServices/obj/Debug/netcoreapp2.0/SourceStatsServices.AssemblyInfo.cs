@@ -11,8 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SourceStatsServices")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Mikko Andersson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Mikko Andersson")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Global player statistics for Source engine and SourceMod games.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SourceStatsServices")]

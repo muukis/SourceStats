@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Mikko Andersson</Authors>
+    <Company />
+    <Description>Global player statistics for Source engine and SourceMod games.</Description>
+    <Copyright>Mikko Andersson</Copyright>
+    <RepositoryUrl>https://github.com/muukis/SourceStats</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
