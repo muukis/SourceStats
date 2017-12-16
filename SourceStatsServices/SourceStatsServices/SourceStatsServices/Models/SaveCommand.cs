@@ -18,5 +18,12 @@ namespace SourceStatsServices.Models
         /// Gets or sets the saved player information
         /// </summary>
         public Player[] Players { get; set; }
+
+        public override string ToString()
+        {
+            return $"Server identity token: {(ServerIdentityToken ?? "NULL")} " +
+                $"(MapId: {(Map?.Id ?? "NULL")} / " +
+                $"Players.Count: {(Players?.Length.ToString() ?? "NULL")})";
+        }
     }
 }
