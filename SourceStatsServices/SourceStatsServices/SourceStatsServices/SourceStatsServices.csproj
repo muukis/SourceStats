@@ -11,11 +11,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Support\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
   </ItemGroup>
 
