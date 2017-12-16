@@ -11,13 +11,9 @@ namespace SourceStatsServices.Models
     public class Weapon
     {
         /// <summary>
-        /// Gets or sets weapon identifier
+        /// Gets or sets weapon type
         /// </summary>
-        public string Id { get; set; }
-        /// <summary>
-        /// Gets or sets weapon name
-        /// </summary>
-        public string Name { get; set; }
+        public StatsType WeaponType { get; set; }
         /// <summary>
         /// Gets or sets weapon total shots fired (including missed shots)
         /// </summary>

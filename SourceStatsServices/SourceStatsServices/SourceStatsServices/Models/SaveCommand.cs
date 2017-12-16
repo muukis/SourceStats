@@ -10,6 +10,7 @@ namespace SourceStatsServices.Models
     /// </summary>
     public class SaveCommand : CommandBase
     {
+        public Server Game { get; set; }
         /// <summary>
         /// Gets or sets the saved map information
         /// </summary>
@@ -22,7 +23,9 @@ namespace SourceStatsServices.Models
         public override string ToString()
         {
             return $"Server identity token: {(ServerIdentityToken ?? "NULL")} " +
-                $"(MapId: {(Map?.Id ?? "NULL")} / " +
+                $"(ServerId: {(Game?.ServerType?.Id ?? "NULL")} / " +
+                $"GameId: {(Game?.GameType?.Id ?? "NULL")} / " +
+                $"MapId: {(Map?.MapType?.Id ?? "NULL")} / " +
                 $"Players.Count: {(Players?.Length.ToString() ?? "NULL")})";
         }
     }

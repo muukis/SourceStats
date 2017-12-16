@@ -19,6 +19,10 @@ namespace SourceStatsServices.Models
         /// </summary>
         public string Name { get; set; }
         /// <summary>
+        /// Gets or sets player type (Sniper, Grenadier, Smoker, etc.)
+        /// </summary>
+        public StatsType PlayerType { get; set; }
+        /// <summary>
         /// Gets or set player weapon information
         /// </summary>
         public Weapon[] Weapons { get; set; }

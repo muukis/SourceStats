@@ -11,13 +11,9 @@ namespace SourceStatsServices.Models
     public class PlayerSpecialEvent
     {
         /// <summary>
-        /// Gets or sets player special event identifier
+        /// Gets or sets the player special event type (incapacitated)
         /// </summary>
-        public string Id { get; set; }
-        /// <summary>
-        /// Gets or sets the name of the player special event (incapacitated) - Only applies when saving a new special event
-        /// </summary>
-        public string Name { get; set; }
+        public StatsType EventType { get; set; }
         /// <summary>
         /// Gets or sets target player identifier (SteamId when target player is human controlled) - CAN BE EMPTY
         /// </summary>
